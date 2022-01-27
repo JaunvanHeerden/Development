@@ -8,7 +8,7 @@ __author__ = "Jaun van Heerden"
 
 import re
 
-REGEX = re.compile(r'((?:[a-z]|[A-Z])(?:[a-z]+|[A-Z]+))')
+REGEX = re.compile(r'((?:[a-z]|[A-Z])(?:[a-z]+|[A-Z]+))', re.UNICODE)
 REGEX_QUOTES = re.compile(r'(?<==")[^\"\d]{2,}(?=\")')
 
 
